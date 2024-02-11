@@ -1,0 +1,303 @@
+/*  font-family: 'Barlow', sans-serif; 
+    font-family: 'Playfair Display', serif;
+*/
+
+body{
+    color: black;
+    overflow-x: hidden;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.container-fluid-odd{
+    padding:60px 50px;
+}
+.grey-bg{
+    background: #f6f6f6;
+}
+
+h4{
+    font-size: 19px;
+    line-height: 1.3em;    
+    color:#303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* header */
+
+#koz-logo{
+    width: 120px;
+    display: inline-block;
+}
+
+#bonedr-header{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 600px;
+    font-size: 24px;
+}
+
+/* navbar */
+.navbar-brand{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active{
+    color: #898989;
+    text-decoration: underline;
+}
+/* .active{
+    color: black;
+    text-decoration: underline;
+} */
+.navbar a{
+    padding: 8px;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-size:12px;
+    line-height: 1.4;
+    letter-spacing: 4px;
+}
+
+/* image banner */
+
+.img-container{
+    padding: 80px 0px;
+}
+
+.img-container img{
+    display: block;
+    width: 700px;
+    margin: auto;
+}
+
+/* text-container */
+
+#text-container{
+    margin: 40px 20px;
+}
+
+#text-container p{
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.9;
+    word-spacing: 1.9;
+}
+
+/* mem-profile */
+#profile-container{
+    padding-top: 50px;
+    padding-left: 280px;
+}
+.mem-pro{
+    width: 230px;
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+    bottom:0px;
+    transition: bottom 0.3s;
+}
+
+.mem-pro img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 8px 7px black;
+}
+
+.mem-pro .content {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.mem-pro:hover{
+    position: relative;
+    bottom: 8px;
+}
+
+/* ----------------------------------------------------------- */
+
+/* DISCOGRAPHY */
+
+#discography-container h1{
+    margin-top: 50px; 
+    font-size: 40px; 
+    font-weight: 600; 
+    letter-spacing: 1.4;
+}
+
+/* album cover */
+
+.hoverwrap img { 
+    width: 100%; 
+}
+.hoverwrap {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hovercap {
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  width: 100%; 
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hovercap {
+  visibility: none; 
+  opacity: 0;
+  width: 100%;
+  padding: 120px 110px;
+  transition: opacity 0.3s;
+}
+.hoverwrap:hover .hovercap {
+  visibility: visible; 
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------- */
+/* Slider my-corousel */
+
+#back{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 18px;
+    color: #303030;
+}
+.carousel-item{
+    margin: auto;
+}
+
+.carousel-inner > .carousel-item img{
+    width: 500px;
+    height: 576px;
+    /* padding-left: 320px; */
+    display: block;
+    margin: auto;
+}
+
+#my-carousel .carousel-control-prev i,
+#my-carousel .carousel-control-next i{
+    color:black;
+    font-size: 30px;
+}
+
+#my-carousel .carousel-indicators button{
+    border:1px solid black;
+    height: 5px;
+}
+
+#my-carousel .carousel-indicators button.active{
+    background-color: #898989;
+}
+
+
+/* ----------------------------------------------------------- */
+/* Song Details */
+
+#song-details {
+    height: 320px;
+}
+
+#song {
+    margin-left: 30px;
+}
+
+#song-details .song-container{
+    border: 1px solid white;
+    width: 280px;
+    background: #DBECEC;
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px black;
+    transition: box-shadow 1s;
+}
+#song-details .song-container:hover{
+    box-shadow: 10px 5px 5px black;
+}
+.song-container img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.song-container audio {
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.song-container .song-name{
+    margin-top: 30px;
+    margin-left: 53px;
+    margin-bottom: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+.song-container .artist{
+    font-size: 14px;
+    margin-left: 53px;
+    margin-bottom: 3px;
+}
+
+/* FOOTER */
+
+#footer{
+    margin-top: 100px;
+    background-color: #e9e9e9;
+    width: 100%;
+}
+
+#foot-inside{
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+#footer p{
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 55px;
+}
+
+#footer img{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+#social_media {
+    margin-top: 40px;
+}
+#social_media i{
+    font-size: 30px;
+}
+#social_media a{
+    color: black
+}
+#foot-inside h3{
+    margin-left: 90px; 
+}

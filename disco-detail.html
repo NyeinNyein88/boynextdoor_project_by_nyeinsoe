@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendors/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        @media screen and (max-width: 576px) {
+            #song-details {
+                height: 1050px;
+                margin-left: 0px;
+            }
+            #bonedr-header{
+                left: 200px;
+            }
+            .song-container {
+                margin-bottom: 40px;
+            }
+            #foot-inside h3{
+                margin-top: 40px;
+                text-align: center;
+            }
+            #foot-inside p{
+                text-align: center;
+            }
+            #footer-text {
+                padding-bottom: 30px;
+            }
+        }
+
+        /* @media screen and (max-width: 1200px) {
+
+        }
+
+        @media screen and (max-width: 768px) {
+            #bonedr-header {
+                left: 300px;
+            }
+
+            #song-details {
+                height: 1050px;
+                margin-left: 10px;
+            }
+
+            .song-container {
+                margin-bottom: 40px;
+            }
+
+            #foot-inside h3 {
+                margin-top: 40px;
+                text-align: center;
+            }
+
+            #foot-inside p {
+                text-align: center;
+            }
+
+            #footer-text {
+                border-bottom: 1px solid black;
+                padding-bottom: 30px;
+            }
+        }*/
+
+        @media screen and (max-width: 376px) {
+            #song{
+                margin-left: 0px;
+            }
+            #bonedr-header{
+                left: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body id="profile">
+    <!-- header -->
+    <div class="header" style="position: relative;">
+        <img id="koz-logo" src="./images/koz-ent-header.png" alt="koz-logo">
+        <h2 id="bonedr-header">boynextdoor</h2>
+        <hr style="margin: 4px;">
+    </div>
+
+    <!-- Nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand active" href="./index.html">Profile</a>
+        <a class="navbar-brand" href="./discography.html">DISCOGRAPHY</a>
+        <a class="navbar-brand" href="./shop/shop.html">Shop</a>
+    </nav>
+
+    <!-- 1st Single WHO! -->
+
+    <h4 style="margin-bottom: 5px; margin-top: 20px;">1st Single</h4>
+    <h2 style="text-align: center;">WHO!</h2>
+    <div class="hoverwrap">
+        <img src="./images/boynextdoor-album-cover.jpg">
+    </div>
+
+    <!-- boynextdoor -->
+    <div class="container-fluid-odd grey-bg">
+        <h2 class="text-center">boynextdoor with</h2>
+        <h2 class="text-center">their passion in music</h2>
+        <div id="text-container">
+            <p>
+                The first single [WHO!] depicts a series of processes of feeling pure excitement for someone for the
+                first time, going through confusion, and singing love. BOYNEXTDOOR's efforts to fully convey the
+                intuitive and organic storytelling of the album, the different musical characteristics of each song, and
+                the unaffected individuality of the members made the music videos for all the songs included in the
+                single.
+            </p>
+            <p>
+                A free-spirited, honest, trendy yet sensitive team that is more attractive the more you see them. A team
+                that brings freshness to the fans and comfortable empathy to the public. BOYNEXTDOOR, our name you will
+                remember.
+            </p>
+            <p>
+                So free and honest, BOYNEXTDOOR focuses on the stories of young people at this time.
+            </p>
+        </div>
+    </div>
+
+    <!-- song details -->
+
+    <h4 style="margin-bottom: 5px; margin-top: 50px;">1st Single</h4>
+    <h2 style="text-align: center; margin-bottom: 60px;">WHO!</h2>
+    <div id="song-details">
+
+        <div id="song" class="row">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="song-container">
+                    <img src="./images/boynextdoor-album-cover.jpg" style="width: 150px;" alt="">
+                    <p class="song-name">돌아버리겠다</p>
+                    <p class="artist">BOYNEXTDOOR</p>
+                    <audio controls style="width: 180px;">
+                        <source src="./song/01. But I like you.mp3" type="audio/ogg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="song-container">
+                    <img src="./images/boynextdoor-album-cover.jpg" style="width: 150px;" alt="">
+                    <p class="song-name">One and Only</p>
+                    <p class="artist">BOYNEXTDOOR</p>
+                    <audio controls style="width: 180px;">
+                        <source src="./song/02. One and Only.mp3" type="audio/ogg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="song-container">
+                    <img src="./images/boynextdoor-album-cover.jpg" style="width: 150px;" alt="">
+                    <p class="song-name">Serenade</p>
+                    <p class="artist">BOYNEXTDOOR</p>
+                    <audio controls style="width: 180px;">
+                        <source src="./song/03. Serenade.mp3" type="audio/ogg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div class="row" id="foot-inside">
+            <div class="col-md-6">
+                <p><b>KOZ ENTERTAINMENT</b></p>
+                <p style="margin-top: 8px;">A. 42, Hangang daero, <br> Yongsan gu, Seoul,Korea</p>
+                <p>ALL RIGHTS RESERVED. <br> © 2023 KOZ ENTERTAINMENT</p>
+                <p style="margin-top: 8px;"><b>PRIVACY POLICY</b> </p>
+            </div>
+            <div class="col-md-6">
+                <h3 style="margin-left: 90px;">Social Media</h3>
+                <div id="social_media" class="d-flex justify-content-around">
+                    <a href="https://www.facebook.com/BOYNEXTDOOR.official"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/KOZ_Entofficial"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.youtube.com/kozentofficial"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.instagram.com/koz_entofficial/"><i class="fab fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./vendors/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
